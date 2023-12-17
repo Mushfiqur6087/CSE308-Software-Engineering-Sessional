@@ -9,7 +9,6 @@ public class NutritionFacts {
     private final int carbohydrate;
 
     public static class Builder {
-        // Required parameters
         private final int servingSize;
         private final int servings;
         // Optional parameters - initialized to default values
