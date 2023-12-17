@@ -11,7 +11,6 @@ public class NutritionFacts {
     public static class Builder {
         private final int servingSize;
         private final int servings;
-        // Optional parameters - initialized to default values
         private int calories = 0;
         private int fat = 0;
         private int sodium = 0;
